@@ -1,4 +1,4 @@
-package io.github.doquanghop.vnpay.dto;
+package io.github.doquanghop.vnpay.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -22,12 +22,12 @@ public class VNPayInitPaymentRequest {
     @JsonProperty("vnp_CreateDate")
     private String createdDate;
 
-//    @JsonProperty("vnp_IpAddr")
+    @JsonProperty("vnp_IpAddr")
     private String ipAddress;
 
-//    @JsonProperty("vnp_OrderInfo")
+    @JsonProperty("vnp_OrderInfo")
     private String orderInfo;
 
-//    @JsonProperty("vnp_SecureHash")
+    @JsonProperty("vnp_SecureHash")
     private String secureHash;
 }
