@@ -6,7 +6,6 @@ import io.github.doquanghop.payspring.dto.response.InitPaymentResponse;
 /**
  * PaymentService interface provides methods for handling payment operations across multiple payment gateways.
  * It defines a unified API for initiating payments, processing callbacks, and handling instant payment notifications (IPN).
- * Currently supports VNPay, with planned support for Stripe, PayPal, Momo, and other gateways.
  */
 public interface PaymentGatewayService {
 
@@ -16,7 +15,7 @@ public interface PaymentGatewayService {
      *
      * @param request the payment initiation request containing details like gateway type, amount, transaction ID, and customer info
      * @return InitPaymentResponse containing the payment URL or transaction details for the gateway
-     * @throws UnsupportedOperationException if the specified gateway is not yet implemented
+     * @throws io.github.doquanghop.payspring.exception.PaySpringException if the specified gateway is not yet implemented
      */
     InitPaymentResponse init(InitPaymentRequest request);
 

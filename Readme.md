@@ -14,9 +14,7 @@ PaySpring is designed to simplify payment gateway integrations for developers by
 
 ## 📚 Documentation
 
-**Thư viện VNPay:**
-- [vn.js.org](#) - Tài liệu chi tiết của thư viện
-- [sandbox.vnpayment.vn/apis](https://sandbox.vnpayment.vn/apis) - Tài liệu tích hợp từ VNPay
+- [sandbox.vnpayment.vn/apis](https://sandbox.vnpayment.vn/apis) - VNPay integration guide
 
 ## 🚀 Getting Started
 
@@ -48,4 +46,5 @@ Join our community and help make payments simpler for everyone!
 ## License
 
 MIT (LICENSE) © Do Quang Hop
+
 

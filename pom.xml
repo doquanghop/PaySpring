@@ -15,18 +15,27 @@
 	<description>
 		PaySpring - An open-source Spring Boot library for seamless integration of multiple payment gateways. Simplify payments, empower developers.
 	</description>
-	<url/>
+	<url>https://github.com/doquanghop/payspring</url>
 	<licenses>
-		<license/>
+		<license>
+			<name>MIT License</name>
+			<url>https://github.com/doquanghop/payspring/blob/main/LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+			<name>Do Quang Hop</name>
+			<email>dqhopx@gmail.com</email>
+			<organization>PaySpring</organization>
+			<organizationUrl>https://github.com/doquanghop</organizationUrl>
+		</developer>
 	</developers>
 	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
+		<connection>scm:git:git://github.com/doquanghop/PaySpring.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/doquanghop/PaySpring.git</developerConnection>
+		<url>https://github.com/doquanghop/PaySpring</url>
+		<tag>HEAD</tag>
 	</scm>
 	<properties>
 		<java.version>17</java.version>
@@ -49,6 +58,11 @@
 			<optional>true</optional>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>

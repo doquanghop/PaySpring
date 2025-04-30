@@ -10,13 +10,13 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Primary
-public class PaySpringService implements PaymentGatewayService {
+public class PaySpringServiceImpl implements PaymentGatewayService {
     @Autowired
     private PaymentServiceFactory factory;
 
     @Override
     public InitPaymentResponse init(InitPaymentRequest request) {
-        PaymentGatewayService service = factory.getPaymentGatewayService(request.getProvider());
+        PaymentGatewayService service = factory.getPaymentGatewayService(request.getPaymentGateway());
         return service.init(request);
     }
 }

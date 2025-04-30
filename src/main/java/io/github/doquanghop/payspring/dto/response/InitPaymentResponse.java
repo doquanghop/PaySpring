@@ -1,18 +1,30 @@
 package io.github.doquanghop.payspring.dto.response;
 
+import io.github.doquanghop.payspring.type.PaymentGateway;
+
 public class InitPaymentResponse {
-    private String vnpUrl;
+    private PaymentGateway paymentGateway;
+    private String paymentURL;
 
     private InitPaymentResponse(Builder builder) {
-        this.vnpUrl = builder.vnpUrl;
+        this.paymentURL = builder.paymentURL;
+        this.paymentGateway = builder.build().paymentGateway;
     }
 
-    public String getVnpUrl() {
-        return vnpUrl;
+    public String getPaymentURL() {
+        return paymentURL;
     }
 
-    public void setVnpUrl(String vnpUrl) {
-        this.vnpUrl = vnpUrl;
+    public void setPaymentURL(String paymentURL) {
+        this.paymentURL = paymentURL;
+    }
+
+    public PaymentGateway getPaymentGateway() {
+        return paymentGateway;
+    }
+
+    public void setPaymentGateway(PaymentGateway paymentGateway) {
+        this.paymentGateway = paymentGateway;
     }
 
     public static Builder builder() {
@@ -20,10 +32,16 @@ public class InitPaymentResponse {
     }
 
     public static class Builder {
-        private String vnpUrl;
+        private String paymentURL;
+        private PaymentGateway paymentGateway;
 
-        public Builder vnpUrl(String vnpUrl) {
-            this.vnpUrl = vnpUrl;
+        public Builder paymentURL(String paymentURL) {
+            this.paymentURL = paymentURL;
+            return this;
+        }
+
+        public Builder paymentGateway(PaymentGateway paymentGateway) {
+            this.paymentGateway = paymentGateway;
             return this;
         }
 

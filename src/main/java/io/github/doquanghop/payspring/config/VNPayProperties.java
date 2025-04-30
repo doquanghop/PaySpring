@@ -2,8 +2,9 @@ package io.github.doquanghop.payspring.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "payment.vnpay")
-public class VnPayProperties {
+
+@ConfigurationProperties(prefix = "payspring.vnpay")
+public class VNPayProperties {
     private String tmnCode;
     private String initPaymentUrl;
     private String returnUrl;

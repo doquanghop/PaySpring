@@ -1,4 +1,4 @@
-package io.github.doquanghop.payspring.constant;
+package io.github.doquanghop.payspring.type;
 
 public enum Locale {
     VIETNAM("vn"),
