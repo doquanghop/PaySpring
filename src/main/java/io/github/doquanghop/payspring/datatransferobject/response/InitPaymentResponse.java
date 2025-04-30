@@ -1,4 +1,4 @@
-package io.github.doquanghop.payspring.dto.response;
+package io.github.doquanghop.payspring.datatransferobject.response;
 
 import io.github.doquanghop.payspring.type.PaymentGateway;
 

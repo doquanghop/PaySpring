@@ -1,7 +1,7 @@
 package io.github.doquanghop.payspring.service.implement;
 
-import io.github.doquanghop.payspring.dto.request.InitPaymentRequest;
-import io.github.doquanghop.payspring.dto.response.InitPaymentResponse;
+import io.github.doquanghop.payspring.datatransferobject.request.InitPaymentRequest;
+import io.github.doquanghop.payspring.datatransferobject.response.InitPaymentResponse;
 import io.github.doquanghop.payspring.service.PaymentGatewayService;
 import io.github.doquanghop.payspring.service.PaymentServiceFactory;
 import org.springframework.beans.factory.annotation.Autowired;

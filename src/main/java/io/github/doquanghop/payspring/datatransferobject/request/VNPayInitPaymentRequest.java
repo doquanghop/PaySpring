@@ -1,4 +1,4 @@
-package io.github.doquanghop.payspring.dto.request;
+package io.github.doquanghop.payspring.datatransferobject.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

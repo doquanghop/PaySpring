@@ -43,6 +43,11 @@ PaySpring is open-source, and we need your help to add more payment gateways and
 - **Read**: Check our Contributing Guide (.github/CONTRIBUTING.md).
 Join our community and help make payments simpler for everyone!
 
+## Security
+We take security seriously, especially for payment processing. Please review our Security Policy (SECURITY.md) for instructions on reporting vulnerabilities and best practices for secure usage.
+
+
+
 ## License
 
 MIT (LICENSE) © Do Quang Hop

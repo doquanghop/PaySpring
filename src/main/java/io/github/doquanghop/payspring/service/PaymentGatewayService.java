@@ -1,7 +1,7 @@
 package io.github.doquanghop.payspring.service;
 
-import io.github.doquanghop.payspring.dto.request.InitPaymentRequest;
-import io.github.doquanghop.payspring.dto.response.InitPaymentResponse;
+import io.github.doquanghop.payspring.datatransferobject.request.InitPaymentRequest;
+import io.github.doquanghop.payspring.datatransferobject.response.InitPaymentResponse;
 
 /**
  * PaymentService interface provides methods for handling payment operations across multiple payment gateways.

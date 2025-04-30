@@ -1,7 +1,7 @@
 package io.github.doquanghop.payspring.constant;
 
 
-import io.github.doquanghop.payspring.dto.response.IpnResponse;
+import io.github.doquanghop.payspring.datatransferobject.response.IpnResponse;
 
 public class VnpIpnResponseConst {
 

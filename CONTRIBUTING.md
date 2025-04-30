@@ -72,7 +72,7 @@ To contribute code or test changes locally:
     - Clone your fork: `git clone https://github.com/YOUR_USERNAME/PaySpring.git`
 
 2. **Install Dependencies**:
-    - Ensure you have [Java 11+](https://adoptium.net/) and [Maven](https://maven.apache.org/) installed.
+    - Ensure you have [Java 17+](https://adoptium.net/) and [Maven](https://maven.apache.org/) installed.
     - Run `mvn install` to install dependencies.
 
 3. **Set Up a Local Environment**:
